@@ -1,0 +1,60 @@
+/* .prod-container{
+    display: flex;
+    gap: 30px;
+}
+
+   .pro-detail{
+       display: flex;
+       gap: 10px;
+   } */
+
+   /* td{
+       align-items: center;
+   }  */
+   .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-subcontainer {
+    width: 30%; /* Adjust the width as needed */
+    margin-bottom: 15px;
+}
+
+.form-group {
+    margin-bottom: 0; /* Remove default margin-bottom for Bootstrap form-group */
+    position: relative;
+}
+
+.form-control::placeholder {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.form-control.animated-placeholder::placeholder {
+    opacity: 1;
+}
+.c-body{
+    border: 1px solid rgb(212, 212, 212);
+    padding: 3%;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+    }
+    .flex-subcontainer {
+        width: 60%;
+    }
+
+}
+
+
+
+.bluebg{
+    background-image: linear-gradient(to right, rgb(122, 191, 248),rgb(224, 241, 254));
+margin:0px;
+align-items: center;
+}

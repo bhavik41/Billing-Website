@@ -1,0 +1,32 @@
+.prod-container{
+    display: flex;
+    gap: 30px;
+}
+
+   .pro-detail{
+       display: flex;
+       gap: 10px;
+   }
+
+   td{
+       text-align: center;
+   }
+
+   .th{
+       color:red;
+   }
+
+   *{
+    color:red;
+   }
+
+
+   #mstrTable tr.normal td {
+    color: #235A81;
+    background-color: white;
+}
+
+#mstrTable tr.highlighted td {
+    color: #FFFFFF;
+    background-color: #235A81;
+}
